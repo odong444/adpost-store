@@ -11,8 +11,8 @@
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BUYWISE - 리뷰 대행 서비스 | 체험단 리뷰 전문</title>
-<meta name="description" content="BUYWISE 리뷰 대행 서비스. 자체 전산 시스템, AI 리뷰어 매칭, 실시간 리포트. 쿠팡, 네이버, 옥션, G마켓 등 전 플랫폼 지원.">
+<title>BUYWISE - 체험단 리뷰 마케팅 | 국내 전 플랫폼 지원</title>
+<meta name="description" content="BUYWISE 체험단 리뷰 마케팅. 수수료 최저 1,000원부터, 1건부터 대량까지. 쿠팡, 네이버, 올리브영, 다이소 등 전 플랫폼 지원. 자체 대시보드 실시간 관리.">
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2314B8A6'/%3E%3Ctext x='50%25' y='53%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial,sans-serif' font-weight='bold' font-size='20' fill='white'%3EB%3C/text%3E%3C/svg%3E">
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="preconnect" href="https://cdn.jsdelivr.net">
@@ -89,9 +89,6 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
 /* Platform card hover */
 .platform-card { transition: transform 0.25s, box-shadow 0.25s; }
 .platform-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(20,184,166,0.15); }
-
-/* Process connector line */
-.process-line { position: absolute; top: 24px; left: 50%; width: calc(100% - 48px); height: 2px; background: linear-gradient(90deg, #14B8A6, #334155); z-index: 0; }
 </style>
 </head>
 <body>
@@ -103,9 +100,8 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
       <span class="text-teal">BUY</span><span class="text-light">WISE</span>
     </a>
     <div class="hidden md:flex items-center gap-8 text-sm text-slate-400">
-      <a href="#problem" class="hover:text-teal transition">문제점</a>
-      <a href="#differentiators" class="hover:text-teal transition">차별점</a>
-      <a href="#platforms" class="hover:text-teal transition">플랫폼</a>
+      <a href="#why" class="hover:text-teal transition">왜 BUYWISE</a>
+      <a href="#platforms" class="hover:text-teal transition">지원 플랫폼</a>
       <a href="#process" class="hover:text-teal transition">프로세스</a>
       <a href="#comparison" class="hover:text-teal transition">비교</a>
       <a href="#faq" class="hover:text-teal transition">FAQ</a>
@@ -128,25 +124,26 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
           실시간 견적 계산기
         </div>
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
-          리뷰 몇 건<br>
-          <span class="text-teal">필요하세요?</span>
+          국내에서 가장<br>
+          <span class="text-teal">빠르고 정확한</span><br>
+          리뷰 마케팅
         </h1>
         <p class="text-slate-400 text-lg sm:text-xl leading-relaxed mb-8 max-w-lg">
-          플랫폼과 작업 유형을 선택하고, 원하는 건수를 입력하세요.<br>
-          <span class="text-teal font-semibold">실시간으로 예상 소요일</span>을 바로 확인할 수 있습니다.
+          수수료 <span class="text-teal font-semibold">최저 1,000원</span>부터, <span class="text-teal font-semibold">1건부터 대량</span>까지.<br>
+          캠페인 신청부터 결과 확인까지 자체 대시보드에서 간편하게.
         </p>
         <div class="flex items-center gap-6 text-sm text-slate-500">
           <div class="flex items-center gap-2">
             <svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-            최소 30건부터
+            1건부터 가능
+          </div>
+          <div class="flex items-center gap-2">
+            <svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            당일 처리
           </div>
           <div class="flex items-center gap-2">
             <svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
             견적 무료
-          </div>
-          <div class="flex items-center gap-2">
-            <svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-            당일 상담
           </div>
         </div>
       </div>
@@ -160,18 +157,20 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
             <div class="flex flex-wrap gap-2" id="platformToggles">
               <button class="toggle-btn active" data-platform="쿠팡">쿠팡</button>
               <button class="toggle-btn" data-platform="네이버">네이버</button>
-              <button class="toggle-btn" data-platform="옥션">옥션</button>
-              <button class="toggle-btn" data-platform="G마켓">G마켓</button>
+              <button class="toggle-btn" data-platform="올리브영">올리브영</button>
+              <button class="toggle-btn" data-platform="다이소">다이소</button>
+              <button class="toggle-btn" data-platform="11번가">11번가</button>
               <button class="toggle-btn" data-platform="기타">기타</button>
             </div>
           </div>
 
-          <!-- Work Type Select -->
+          <!-- Review Type Select -->
           <div class="mb-6">
-            <label class="text-sm font-semibold text-slate-300 mb-3 block">작업 유형</label>
-            <div class="flex flex-wrap gap-2" id="workTypeToggles">
-              <button class="toggle-btn active" data-type="빈박스">빈박스</button>
-              <button class="toggle-btn" data-type="실물배송">실물배송</button>
+            <label class="text-sm font-semibold text-slate-300 mb-3 block">리뷰 유형</label>
+            <div class="flex flex-wrap gap-2" id="reviewTypeToggles">
+              <button class="toggle-btn active" data-type="텍스트리뷰">텍스트리뷰</button>
+              <button class="toggle-btn" data-type="포토리뷰">포토리뷰</button>
+              <button class="toggle-btn" data-type="한달사용후기">한달사용후기</button>
             </div>
           </div>
 
@@ -179,27 +178,27 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
           <div class="mb-6">
             <div class="flex items-center justify-between mb-3">
               <label class="text-sm font-semibold text-slate-300">리뷰 건수</label>
-              <span class="text-2xl font-dm font-bold text-teal" id="qtyDisplay">100</span>
+              <span class="text-2xl font-dm font-bold text-teal" id="qtyDisplay">50</span>
             </div>
-            <input type="range" id="qtySlider" min="10" max="500" value="100" step="10" class="w-full">
+            <input type="range" id="qtySlider" min="1" max="1000" value="50" step="1" class="w-full">
             <div class="flex justify-between text-xs text-slate-500 mt-2">
-              <span>10건</span>
-              <span>250건</span>
+              <span>1건</span>
               <span>500건</span>
+              <span>1,000건</span>
             </div>
           </div>
 
           <!-- Real-time Results -->
           <div class="grid grid-cols-2 gap-4 mb-6">
             <div class="bg-dark/60 rounded-xl p-4 text-center border border-white/5">
-              <p class="text-xs text-slate-500 mb-1">예상 소요일</p>
-              <p class="text-2xl font-dm font-bold text-light" id="estDays">20</p>
-              <p class="text-xs text-slate-500">일</p>
+              <p class="text-xs text-slate-500 mb-1">예상 수수료</p>
+              <p class="text-2xl font-dm font-bold text-teal" id="estPrice">50,000</p>
+              <p class="text-xs text-slate-500">원~</p>
             </div>
             <div class="bg-dark/60 rounded-xl p-4 text-center border border-white/5">
-              <p class="text-xs text-slate-500 mb-1">일별 배분</p>
-              <p class="text-2xl font-dm font-bold text-light">하루</p>
-              <p class="text-xs text-teal font-semibold">5건</p>
+              <p class="text-xs text-slate-500 mb-1">건당 수수료</p>
+              <p class="text-2xl font-dm font-bold text-light">1,000</p>
+              <p class="text-xs text-teal font-semibold">원~</p>
             </div>
           </div>
 
@@ -215,117 +214,78 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
 </section>
 
 <!-- ============================================ -->
-<!-- SECTION 2: PROBLEM — 3 Pain Points           -->
+<!-- SECTION 2: WHY BUYWISE — 5 Differentiators   -->
 <!-- ============================================ -->
-<section id="problem" class="py-20 md:py-28 relative">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-16 fade-section">
-      <span class="text-teal text-sm font-bold tracking-widest uppercase mb-4 block">Problem</span>
-      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4">리뷰 대행, <span class="text-red-400">이런 경험</span> 있으셨죠?</h2>
-      <p class="text-slate-400 text-lg max-w-2xl mx-auto">기존 리뷰 대행 서비스의 고질적인 문제들. 더 이상 참지 마세요.</p>
-    </div>
-    <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
-      <!-- Pain 1 -->
-      <div class="fade-section bg-card rounded-2xl p-8 border border-white/5 hover:border-red-400/30 transition group">
-        <div class="w-14 h-14 bg-red-400/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-400/20 transition">
-          <svg class="w-7 h-7 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-        </div>
-        <h3 class="text-xl font-bold mb-3">몇 건 됐는지 모름</h3>
-        <p class="text-slate-400 leading-relaxed">현재 진행 상황을 알 수 없어 매번 카톡으로 물어봐야 하는 번거로움. 답변도 늦고, 정확하지도 않습니다.</p>
-      </div>
-      <!-- Pain 2 -->
-      <div class="fade-section bg-card rounded-2xl p-8 border border-white/5 hover:border-red-400/30 transition group" style="transition-delay:0.1s">
-        <div class="w-14 h-14 bg-red-400/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-400/20 transition">
-          <svg class="w-7 h-7 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-        </div>
-        <h3 class="text-xl font-bold mb-3">스케줄 안 지켜짐</h3>
-        <p class="text-slate-400 leading-relaxed">약속한 일정대로 리뷰가 등록되지 않아 마케팅 전략이 틀어지고, 매출 기회를 놓칩니다.</p>
-      </div>
-      <!-- Pain 3 -->
-      <div class="fade-section bg-card rounded-2xl p-8 border border-white/5 hover:border-red-400/30 transition group" style="transition-delay:0.2s">
-        <div class="w-14 h-14 bg-red-400/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-red-400/20 transition">
-          <svg class="w-7 h-7 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L4.082 16.5c-.77.833.192 2.5 1.732 2.5z"/></svg>
-        </div>
-        <h3 class="text-xl font-bold mb-3">블라인드 & 어뷰징</h3>
-        <p class="text-slate-400 leading-relaxed">리뷰가 블라인드 처리되거나 어뷰징으로 판정되어 오히려 역효과. 비용만 날리고 신뢰도만 떨어집니다.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================ -->
-<!-- SECTION 3: 5 DIFFERENTIATORS                 -->
-<!-- ============================================ -->
-<section id="differentiators" class="py-20 md:py-28 relative bg-gradient-to-b from-dark via-card/30 to-dark">
+<section id="why" class="py-20 md:py-28 relative bg-gradient-to-b from-dark via-card/30 to-dark">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16 fade-section">
       <span class="text-teal text-sm font-bold tracking-widest uppercase mb-4 block">Why BUYWISE</span>
-      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4">BUYWISE만의 <span class="text-teal">5가지 차별점</span></h2>
-      <p class="text-slate-400 text-lg max-w-2xl mx-auto">다른 업체에서는 절대 제공하지 못하는, 기술 기반의 리뷰 대행 서비스</p>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4">BUYWISE만의 <span class="text-teal">5가지 강점</span></h2>
+      <p class="text-slate-400 text-lg max-w-2xl mx-auto">5년간 300억 매출, 1,000개 이상 브랜드가 선택한 이유</p>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Diff 1 -->
+      <!-- 1 -->
       <div class="fade-section bg-card rounded-2xl p-8 border border-white/5 hover:border-teal/30 transition lg:col-span-1">
         <div class="w-12 h-12 bg-teal/10 rounded-xl flex items-center justify-center mb-5">
-          <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
         </div>
         <div class="text-teal text-xs font-bold mb-2">01</div>
-        <h3 class="text-lg font-bold mb-2">자체 전산 시스템</h3>
-        <p class="text-slate-400 text-sm leading-relaxed">카카오톡이 아닌, 자체 개발 전산 시스템으로 주문부터 완료까지 체계적으로 관리합니다.</p>
+        <h3 class="text-lg font-bold mb-2">수수료 최저 1,000원</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">업계 최저 수준의 수수료. 추가 비용 없이 투명한 가격으로 운영됩니다.</p>
       </div>
-      <!-- Diff 2 -->
+      <!-- 2 -->
       <div class="fade-section bg-card rounded-2xl p-8 border border-white/5 hover:border-teal/30 transition" style="transition-delay:0.08s">
         <div class="w-12 h-12 bg-teal/10 rounded-xl flex items-center justify-center mb-5">
           <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
         </div>
         <div class="text-teal text-xs font-bold mb-2">02</div>
-        <h3 class="text-lg font-bold mb-2">AI 리뷰어 매칭</h3>
-        <p class="text-slate-400 text-sm leading-relaxed">상품 카테고리와 리뷰어 이력을 AI가 분석하여 최적의 리뷰어를 자동 매칭합니다.</p>
+        <h3 class="text-lg font-bold mb-2">실제 리뷰어 매칭</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">프로그램이 아닌 실제 리뷰어를 활용. 상품 카테고리에 맞는 최적의 리뷰어를 자동 매칭합니다.</p>
       </div>
-      <!-- Diff 3 -->
+      <!-- 3 -->
       <div class="fade-section bg-card rounded-2xl p-8 border border-white/5 hover:border-teal/30 transition" style="transition-delay:0.16s">
         <div class="w-12 h-12 bg-teal/10 rounded-xl flex items-center justify-center mb-5">
-          <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
         </div>
         <div class="text-teal text-xs font-bold mb-2">03</div>
-        <h3 class="text-lg font-bold mb-2">AI 키워드 유입</h3>
-        <p class="text-slate-400 text-sm leading-relaxed">검색 키워드를 통해 자연스럽게 상품에 유입되도록 AI가 최적의 키워드 경로를 설계합니다.</p>
+        <h3 class="text-lg font-bold mb-2">1건부터 대량까지</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">1건부터 1,000건 이상 대량까지 제한 없이 처리. 긴급 건, 공휴일에도 당일 대응 가능합니다.</p>
       </div>
-      <!-- Diff 4 -->
+      <!-- 4 -->
       <div class="fade-section bg-card rounded-2xl p-8 border border-white/5 hover:border-teal/30 transition" style="transition-delay:0.24s">
         <div class="w-12 h-12 bg-teal/10 rounded-xl flex items-center justify-center mb-5">
-          <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
         </div>
         <div class="text-teal text-xs font-bold mb-2">04</div>
-        <h3 class="text-lg font-bold mb-2">스케줄 확정 (98%)</h3>
-        <p class="text-slate-400 text-sm leading-relaxed">업계 최고 98% 이행률. 확정된 스케줄대로 리뷰가 등록되어 마케팅 계획에 차질이 없습니다.</p>
+        <h3 class="text-lg font-bold mb-2">자체 웹 대시보드</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">카톡이 아닌 자체 개발 대시보드에서 캠페인 신청, 진행 상황, 결과를 실시간으로 확인하세요.</p>
       </div>
-      <!-- Diff 5 -->
+      <!-- 5 -->
       <div class="fade-section bg-card rounded-2xl p-8 border border-white/5 hover:border-teal/30 transition sm:col-span-2 lg:col-span-2" style="transition-delay:0.32s">
         <div class="w-12 h-12 bg-teal/10 rounded-xl flex items-center justify-center mb-5">
-          <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+          <svg class="w-6 h-6 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
         </div>
         <div class="text-teal text-xs font-bold mb-2">05</div>
-        <h3 class="text-lg font-bold mb-2">실시간 리포트</h3>
-        <p class="text-slate-400 text-sm leading-relaxed">대시보드에서 작업 진행률, 등록된 리뷰, 키워드 순위 변동을 실시간으로 확인하세요. 더 이상 카톡으로 물어볼 필요 없습니다.</p>
+        <h3 class="text-lg font-bold mb-2">SEO 비노출 & 브랜드 보호</h3>
+        <p class="text-slate-400 text-sm leading-relaxed">광고주 제품이 검색 엔진에 불필요하게 노출되지 않도록 관리합니다. 브랜딩 저해 요소를 원천 차단하여 브랜드 이미지를 보호합니다.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ============================================ -->
-<!-- SECTION 4: PLATFORMS                         -->
+<!-- SECTION 3: PLATFORMS                         -->
 <!-- ============================================ -->
 <section id="platforms" class="py-20 md:py-28">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16 fade-section">
       <span class="text-teal text-sm font-bold tracking-widest uppercase mb-4 block">Platforms</span>
-      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4"><span class="text-teal">전 플랫폼</span> 지원</h2>
-      <p class="text-slate-400 text-lg max-w-2xl mx-auto">주요 이커머스 플랫폼을 모두 지원하며, 다양한 작업 유형을 제공합니다.</p>
+      <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4"><span class="text-teal">국내 전 플랫폼</span> 지원</h2>
+      <p class="text-slate-400 text-lg max-w-2xl mx-auto">대부분의 국내 판매 채널과 특수몰을 지원합니다.</p>
     </div>
 
     <!-- Platforms Grid -->
-    <div class="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7 gap-4 mb-12 fade-section">
+    <div class="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-9 gap-4 mb-12 fade-section">
       <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
         <div class="text-3xl mb-2">🟠</div>
         <p class="text-sm font-semibold">쿠팡</p>
@@ -335,54 +295,50 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
         <p class="text-sm font-semibold">네이버</p>
       </div>
       <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
+        <div class="text-3xl mb-2">💚</div>
+        <p class="text-sm font-semibold">올리브영</p>
+      </div>
+      <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
+        <div class="text-3xl mb-2">🩷</div>
+        <p class="text-sm font-semibold">다이소</p>
+      </div>
+      <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
+        <div class="text-3xl mb-2">💜</div>
+        <p class="text-sm font-semibold">화해</p>
+      </div>
+      <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
         <div class="text-3xl mb-2">🔴</div>
-        <p class="text-sm font-semibold">옥션</p>
-      </div>
-      <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
-        <div class="text-3xl mb-2">🟡</div>
-        <p class="text-sm font-semibold">G마켓</p>
-      </div>
-      <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
-        <div class="text-3xl mb-2">🟣</div>
         <p class="text-sm font-semibold">11번가</p>
       </div>
       <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
-        <div class="text-3xl mb-2">🔵</div>
-        <p class="text-sm font-semibold">인터파크</p>
+        <div class="text-3xl mb-2">🟡</div>
+        <p class="text-sm font-semibold">컬리</p>
       </div>
       <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
-        <div class="text-3xl mb-2">🏠</div>
-        <p class="text-sm font-semibold">오늘의집</p>
+        <div class="text-3xl mb-2">🔵</div>
+        <p class="text-sm font-semibold">이베이몰</p>
+      </div>
+      <div class="platform-card bg-card rounded-xl p-5 text-center border border-white/5">
+        <div class="text-3xl mb-2">🌐</div>
+        <p class="text-sm font-semibold">알리</p>
       </div>
     </div>
 
-    <!-- Work Types -->
+    <!-- Service Types -->
     <div class="fade-section">
-      <h3 class="text-center text-xl font-bold mb-8">작업 유형</h3>
+      <h3 class="text-center text-xl font-bold mb-8">서비스 유형</h3>
       <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
         <div class="bg-card rounded-xl p-5 border border-white/5 text-center hover:border-teal/30 transition">
           <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-            <svg class="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+            <svg class="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
           </div>
-          <p class="text-sm font-semibold">빈박스</p>
-        </div>
-        <div class="bg-card rounded-xl p-5 border border-white/5 text-center hover:border-teal/30 transition">
-          <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-            <svg class="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8"/></svg>
-          </div>
-          <p class="text-sm font-semibold">실물배송</p>
+          <p class="text-sm font-semibold">텍스트리뷰</p>
         </div>
         <div class="bg-card rounded-xl p-5 border border-white/5 text-center hover:border-teal/30 transition">
           <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center mx-auto mb-3">
             <svg class="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 13a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
           <p class="text-sm font-semibold">포토리뷰</p>
-        </div>
-        <div class="bg-card rounded-xl p-5 border border-white/5 text-center hover:border-teal/30 transition">
-          <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center mx-auto mb-3">
-            <svg class="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
-          </div>
-          <p class="text-sm font-semibold">텍스트리뷰</p>
         </div>
         <div class="bg-card rounded-xl p-5 border border-white/5 text-center hover:border-teal/30 transition">
           <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center mx-auto mb-3">
@@ -404,9 +360,21 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
         </div>
         <div class="bg-card rounded-xl p-5 border border-white/5 text-center hover:border-teal/30 transition">
           <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+            <svg class="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </div>
+          <p class="text-sm font-semibold">검색 유입</p>
+        </div>
+        <div class="bg-card rounded-xl p-5 border border-white/5 text-center hover:border-teal/30 transition">
+          <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center mx-auto mb-3">
             <svg class="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
           </div>
           <p class="text-sm font-semibold">키워드 트래픽</p>
+        </div>
+        <div class="bg-card rounded-xl p-5 border border-white/5 text-center hover:border-teal/30 transition">
+          <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+            <svg class="w-5 h-5 text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+          </div>
+          <p class="text-sm font-semibold">영상리뷰</p>
         </div>
       </div>
     </div>
@@ -414,45 +382,44 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
 </section>
 
 <!-- ============================================ -->
-<!-- SECTION 5: PROCESS                           -->
+<!-- SECTION 4: PROCESS                           -->
 <!-- ============================================ -->
 <section id="process" class="py-20 md:py-28 bg-gradient-to-b from-dark via-card/30 to-dark">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-16 fade-section">
       <span class="text-teal text-sm font-bold tracking-widest uppercase mb-4 block">Process</span>
       <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4"><span class="text-teal">4단계</span>로 끝나는 간편한 프로세스</h2>
-      <p class="text-slate-400 text-lg max-w-2xl mx-auto">상담부터 리포트까지, 체계적인 시스템으로 관리됩니다.</p>
+      <p class="text-slate-400 text-lg max-w-2xl mx-auto">캠페인 신청부터 결과 확인까지, 평균 30초면 충분합니다.</p>
     </div>
     <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 relative">
-      <!-- Connector line (desktop only) -->
       <div class="hidden lg:block absolute top-12 left-[12.5%] w-[75%] h-0.5 bg-gradient-to-r from-teal via-teal/50 to-teal/20"></div>
 
       <div class="fade-section relative">
         <div class="bg-card rounded-2xl p-8 border border-white/5 text-center relative z-10">
           <div class="w-12 h-12 bg-teal rounded-full flex items-center justify-center mx-auto mb-5 text-dark font-dm font-bold text-lg">1</div>
           <h3 class="text-lg font-bold mb-2">상담 & 견적</h3>
-          <p class="text-slate-400 text-sm">카카오톡 또는 전화로 상담 후 맞춤 견적을 받으세요.</p>
+          <p class="text-slate-400 text-sm">카카오톡으로 간편 상담 후 맞춤 견적을 받으세요.</p>
         </div>
       </div>
       <div class="fade-section relative" style="transition-delay:0.1s">
         <div class="bg-card rounded-2xl p-8 border border-white/5 text-center relative z-10">
           <div class="w-12 h-12 bg-teal rounded-full flex items-center justify-center mx-auto mb-5 text-dark font-dm font-bold text-lg">2</div>
-          <h3 class="text-lg font-bold mb-2">스케줄 확정</h3>
-          <p class="text-slate-400 text-sm">일별 배분 스케줄을 확정하고, 시작일을 정합니다.</p>
+          <h3 class="text-lg font-bold mb-2">캠페인 등록</h3>
+          <p class="text-slate-400 text-sm">대시보드에서 플랫폼, 상품, 건수를 입력하고 캠페인을 등록합니다.</p>
         </div>
       </div>
       <div class="fade-section relative" style="transition-delay:0.2s">
         <div class="bg-card rounded-2xl p-8 border border-white/5 text-center relative z-10">
           <div class="w-12 h-12 bg-teal rounded-full flex items-center justify-center mx-auto mb-5 text-dark font-dm font-bold text-lg">3</div>
-          <h3 class="text-lg font-bold mb-2">작업 실행</h3>
-          <p class="text-slate-400 text-sm">AI 매칭된 리뷰어가 스케줄에 따라 리뷰를 등록합니다.</p>
+          <h3 class="text-lg font-bold mb-2">리뷰어 매칭 & 실행</h3>
+          <p class="text-slate-400 text-sm">카테고리에 맞는 리뷰어가 매칭되어 리뷰가 등록됩니다.</p>
         </div>
       </div>
       <div class="fade-section relative" style="transition-delay:0.3s">
         <div class="bg-card rounded-2xl p-8 border border-white/5 text-center relative z-10">
           <div class="w-12 h-12 bg-teal rounded-full flex items-center justify-center mx-auto mb-5 text-dark font-dm font-bold text-lg">4</div>
-          <h3 class="text-lg font-bold mb-2">리포트 제공</h3>
-          <p class="text-slate-400 text-sm">실시간 대시보드에서 진행 상황과 결과를 확인하세요.</p>
+          <h3 class="text-lg font-bold mb-2">실시간 리포트</h3>
+          <p class="text-slate-400 text-sm">대시보드에서 진행 상황과 결과를 실시간으로 확인하세요.</p>
         </div>
       </div>
     </div>
@@ -460,7 +427,7 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
 </section>
 
 <!-- ============================================ -->
-<!-- SECTION 6: COMPARISON                        -->
+<!-- SECTION 5: COMPARISON                        -->
 <!-- ============================================ -->
 <section id="comparison" class="py-20 md:py-28">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -480,7 +447,7 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
     </div>
 
     <!-- Comparison Panels -->
-    <div class="relative max-w-3xl mx-auto fade-section" style="min-height: 420px;">
+    <div class="relative max-w-3xl mx-auto fade-section" style="min-height: 380px;">
       <!-- Panel A: 타업체 -->
       <div class="comp-panel active-panel" id="compPanelA">
         <div class="space-y-4">
@@ -490,7 +457,7 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
           </div>
           <div class="bg-card rounded-xl p-5 border border-red-400/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-red-400/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></div>
-            <div><p class="font-semibold">오픈채팅 모집</p><p class="text-sm text-slate-400">불특정 다수에게 리뷰어 모집, 품질 편차 심함</p></div>
+            <div><p class="font-semibold">불투명한 가격</p><p class="text-sm text-slate-400">추가 수수료, 숨겨진 비용으로 예산 초과</p></div>
           </div>
           <div class="bg-card rounded-xl p-5 border border-red-400/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-red-400/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></div>
@@ -498,19 +465,11 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
           </div>
           <div class="bg-card rounded-xl p-5 border border-red-400/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-red-400/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></div>
-            <div><p class="font-semibold">스케줄 미이행</p><p class="text-sm text-slate-400">약속한 일정 지키지 않음, 이행률 불명</p></div>
+            <div><p class="font-semibold">최소 수량 제한</p><p class="text-sm text-slate-400">소량 주문 불가, 대량만 접수</p></div>
           </div>
           <div class="bg-card rounded-xl p-5 border border-red-400/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-red-400/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></div>
-            <div><p class="font-semibold">어뷰징 리스크</p><p class="text-sm text-slate-400">동일 IP, 패턴 노출로 어뷰징 판정 위험</p></div>
-          </div>
-          <div class="bg-card rounded-xl p-5 border border-red-400/20 flex items-center gap-4">
-            <div class="w-10 h-10 bg-red-400/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></div>
-            <div><p class="font-semibold">블라인드 무대응</p><p class="text-sm text-slate-400">리뷰 블라인드 처리 시 보상 없음</p></div>
-          </div>
-          <div class="bg-card rounded-xl p-5 border border-red-400/20 flex items-center gap-4">
-            <div class="w-10 h-10 bg-red-400/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg></div>
-            <div><p class="font-semibold">키워드 유입 없음</p><p class="text-sm text-slate-400">단순 리뷰 등록만, 검색 유입 효과 없음</p></div>
+            <div><p class="font-semibold">브랜드 노출 리스크</p><p class="text-sm text-slate-400">SEO 관리 없이 브랜딩 저해 요소 발생</p></div>
           </div>
         </div>
       </div>
@@ -520,31 +479,23 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
         <div class="space-y-4">
           <div class="bg-card rounded-xl p-5 border border-teal/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            <div><p class="font-semibold text-teal">전산 시스템 접수</p><p class="text-sm text-slate-400">자체 개발 시스템으로 자동화된 주문 관리</p></div>
+            <div><p class="font-semibold text-teal">자체 웹 대시보드</p><p class="text-sm text-slate-400">캠페인 등록부터 결과까지 웹에서 간편 관리</p></div>
           </div>
           <div class="bg-card rounded-xl p-5 border border-teal/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            <div><p class="font-semibold text-teal">AI 리뷰어 매칭</p><p class="text-sm text-slate-400">카테고리별 최적화된 리뷰어 자동 배정</p></div>
+            <div><p class="font-semibold text-teal">수수료 1,000원~</p><p class="text-sm text-slate-400">업계 최저 수수료, 추가 비용 없이 투명한 가격</p></div>
           </div>
           <div class="bg-card rounded-xl p-5 border border-teal/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            <div><p class="font-semibold text-teal">실시간 대시보드</p><p class="text-sm text-slate-400">진행률, 리뷰 내용, 키워드 순위를 실시간 확인</p></div>
+            <div><p class="font-semibold text-teal">실시간 리포트</p><p class="text-sm text-slate-400">진행률, 리뷰 내용, 결과를 실시간 확인</p></div>
           </div>
           <div class="bg-card rounded-xl p-5 border border-teal/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            <div><p class="font-semibold text-teal">98% 스케줄 이행</p><p class="text-sm text-slate-400">업계 최고 이행률, 확정 스케줄 준수</p></div>
+            <div><p class="font-semibold text-teal">1건부터 대량까지</p><p class="text-sm text-slate-400">수량 제한 없이, 긴급 건도 당일 대응</p></div>
           </div>
           <div class="bg-card rounded-xl p-5 border border-teal/20 flex items-center gap-4">
             <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            <div><p class="font-semibold text-teal">어뷰징 0건</p><p class="text-sm text-slate-400">AI 기반 패턴 분산, 어뷰징 판정 제로</p></div>
-          </div>
-          <div class="bg-card rounded-xl p-5 border border-teal/20 flex items-center gap-4">
-            <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            <div><p class="font-semibold text-teal">블라인드 시 무상 재작업</p><p class="text-sm text-slate-400">리뷰 블라인드 시 100% 무상으로 재등록</p></div>
-          </div>
-          <div class="bg-card rounded-xl p-5 border border-teal/20 flex items-center gap-4">
-            <div class="w-10 h-10 bg-teal/10 rounded-lg flex items-center justify-center flex-shrink-0"><svg class="w-5 h-5 text-teal" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg></div>
-            <div><p class="font-semibold text-teal">AI 키워드 유입</p><p class="text-sm text-slate-400">검색 키워드 기반 자연 유입으로 순위 상승</p></div>
+            <div><p class="font-semibold text-teal">SEO 비노출 보장</p><p class="text-sm text-slate-400">브랜딩 저해 요소 원천 차단, 브랜드 이미지 보호</p></div>
           </div>
         </div>
       </div>
@@ -553,23 +504,23 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
     <!-- Stats Count-up -->
     <div class="grid grid-cols-3 gap-6 mt-16 max-w-3xl mx-auto fade-section">
       <div class="text-center">
-        <p class="text-3xl sm:text-4xl font-dm font-extrabold text-teal" data-countup="1000000">0</p>
-        <p class="text-xs sm:text-sm text-slate-400 mt-1">+ 누적 리뷰 건</p>
+        <p class="text-3xl sm:text-4xl font-dm font-extrabold text-teal" data-countup="500000">0</p>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">+ 누적 진행 건</p>
       </div>
       <div class="text-center">
-        <p class="text-3xl sm:text-4xl font-dm font-extrabold text-teal" data-countup="98" data-suffix="%">0</p>
-        <p class="text-xs sm:text-sm text-slate-400 mt-1">이행률</p>
+        <p class="text-3xl sm:text-4xl font-dm font-extrabold text-teal" data-countup="1000">0</p>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">+ 진행 업체</p>
       </div>
       <div class="text-center">
-        <p class="text-3xl sm:text-4xl font-dm font-extrabold text-teal" data-countup="0" data-static="true">0</p>
-        <p class="text-xs sm:text-sm text-slate-400 mt-1">어뷰징 건</p>
+        <p class="text-3xl sm:text-4xl font-dm font-extrabold text-teal" data-countup="300" data-suffix="억">0</p>
+        <p class="text-xs sm:text-sm text-slate-400 mt-1">5년간 매출</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ============================================ -->
-<!-- SECTION 7: FAQ                               -->
+<!-- SECTION 6: FAQ                               -->
 <!-- ============================================ -->
 <section id="faq" class="py-20 md:py-28 bg-gradient-to-b from-dark via-card/30 to-dark">
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -579,47 +530,42 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
     </div>
 
     <div class="space-y-4 fade-section" id="faqContainer">
-      <!-- FAQ 1 -->
       <div class="faq-item bg-card rounded-xl border border-white/5 overflow-hidden">
         <button class="w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
           <span class="font-semibold pr-4">최소 주문 건수가 있나요?</span>
           <svg class="faq-chevron w-5 h-5 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div class="faq-answer px-5">
-          <p class="text-slate-400 pb-5 leading-relaxed">네, 최소 주문 건수는 <span class="text-teal font-semibold">30건</span>입니다. 30건 이상부터 주문이 가능하며, 대량 주문 시 별도 할인이 적용됩니다.</p>
+          <p class="text-slate-400 pb-5 leading-relaxed">아니요, <span class="text-teal font-semibold">1건부터</span> 주문 가능합니다. 1건부터 1,000건 이상 대량까지 제한 없이 접수됩니다.</p>
         </div>
       </div>
-      <!-- FAQ 2 -->
       <div class="faq-item bg-card rounded-xl border border-white/5 overflow-hidden">
         <button class="w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
-          <span class="font-semibold pr-4">빈박스와 실물배송의 차이는 무엇인가요?</span>
+          <span class="font-semibold pr-4">수수료는 얼마인가요?</span>
           <svg class="faq-chevron w-5 h-5 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div class="faq-answer px-5">
-          <p class="text-slate-400 pb-5 leading-relaxed"><span class="text-teal font-semibold">빈박스</span>는 실제 상품 없이 빈 박스를 발송하여 구매 확정 후 리뷰를 작성하는 방식이고, <span class="text-teal font-semibold">실물배송</span>은 실제 상품을 리뷰어에게 배송하여 사용 후 리뷰를 작성하는 방식입니다. 실물배송이 더 자연스럽고 상세한 리뷰가 가능합니다.</p>
+          <p class="text-slate-400 pb-5 leading-relaxed">건당 <span class="text-teal font-semibold">최저 1,000원</span>부터 시작합니다. 플랫폼, 리뷰 유형, 수량에 따라 달라지며, 추가 수수료는 없습니다. 정확한 견적은 상담을 통해 안내드립니다.</p>
         </div>
       </div>
-      <!-- FAQ 3 -->
       <div class="faq-item bg-card rounded-xl border border-white/5 overflow-hidden">
         <button class="w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
-          <span class="font-semibold pr-4">키워드 유입이 무엇인가요?</span>
+          <span class="font-semibold pr-4">어떤 플랫폼을 지원하나요?</span>
           <svg class="faq-chevron w-5 h-5 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div class="faq-answer px-5">
-          <p class="text-slate-400 pb-5 leading-relaxed">리뷰어가 특정 <span class="text-teal font-semibold">검색 키워드</span>를 통해 상품 페이지에 자연스럽게 유입한 뒤 구매하는 방식입니다. 이를 통해 해당 키워드의 검색 순위가 올라가고, 자연 유입 트래픽이 증가하는 효과를 얻을 수 있습니다.</p>
+          <p class="text-slate-400 pb-5 leading-relaxed"><span class="text-teal font-semibold">쿠팡, 네이버, 올리브영, 다이소, 화해, 11번가, 컬리, 이베이몰, 알리</span> 등 대부분의 국내 판매 채널과 특수몰을 지원합니다.</p>
         </div>
       </div>
-      <!-- FAQ 4 -->
       <div class="faq-item bg-card rounded-xl border border-white/5 overflow-hidden">
         <button class="w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
-          <span class="font-semibold pr-4">어뷰징 판정 위험은 없나요?</span>
+          <span class="font-semibold pr-4">당일 처리도 가능한가요?</span>
           <svg class="faq-chevron w-5 h-5 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div class="faq-answer px-5">
-          <p class="text-slate-400 pb-5 leading-relaxed">BUYWISE는 <span class="text-teal font-semibold">어뷰징 0건</span>을 유지하고 있습니다. AI 기반으로 IP, 작성 패턴, 시간대를 분산시키고, 리뷰어 계정의 건전성을 실시간으로 모니터링하여 어뷰징 판정 위험을 원천 차단합니다.</p>
+          <p class="text-slate-400 pb-5 leading-relaxed">네, <span class="text-teal font-semibold">당일 처리 가능</span>합니다. 긴급 건, 공휴일에도 대응 가능하며, 상담 시 일정을 조율해 드립니다.</p>
         </div>
       </div>
-      <!-- FAQ 5 -->
       <div class="faq-item bg-card rounded-xl border border-white/5 overflow-hidden">
         <button class="w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
           <span class="font-semibold pr-4">세금계산서 발행이 가능한가요?</span>
@@ -629,14 +575,13 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
           <p class="text-slate-400 pb-5 leading-relaxed">네, <span class="text-teal font-semibold">세금계산서 발행이 가능</span>합니다. 사업자등록증 기반으로 전자세금계산서를 발행해 드리며, 비용 처리에 문제없도록 도와드립니다.</p>
         </div>
       </div>
-      <!-- FAQ 6 -->
       <div class="faq-item bg-card rounded-xl border border-white/5 overflow-hidden">
         <button class="w-full flex items-center justify-between p-5 text-left" onclick="toggleFaq(this)">
-          <span class="font-semibold pr-4">리뷰가 블라인드 처리되면 어떻게 되나요?</span>
+          <span class="font-semibold pr-4">진행 상황은 어떻게 확인하나요?</span>
           <svg class="faq-chevron w-5 h-5 text-slate-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
         </button>
         <div class="faq-answer px-5">
-          <p class="text-slate-400 pb-5 leading-relaxed">리뷰가 블라인드 처리될 경우 <span class="text-teal font-semibold">100% 무상으로 재작업</span>해 드립니다. 블라인드 사유를 분석하여 재발 방지 조치를 취한 후, 새로운 리뷰어를 통해 재등록합니다. 고객님의 비용 부담은 전혀 없습니다.</p>
+          <p class="text-slate-400 pb-5 leading-relaxed"><span class="text-teal font-semibold">자체 웹 대시보드</span>에서 실시간으로 확인 가능합니다. 별도의 카톡 문의 없이 캠페인 진행률, 등록된 리뷰, 결과 리포트를 한눈에 볼 수 있습니다.</p>
         </div>
       </div>
     </div>
@@ -644,14 +589,14 @@ input[type="range"]::-moz-range-thumb { width: 24px; height: 24px; border-radius
 </section>
 
 <!-- ============================================ -->
-<!-- SECTION 8: CTA + FOOTER                      -->
+<!-- SECTION 7: CTA + FOOTER                      -->
 <!-- ============================================ -->
 <section id="cta" class="py-20 md:py-28 relative overflow-hidden">
   <div class="absolute inset-0 bg-gradient-to-br from-teal/10 via-transparent to-amber/10 pointer-events-none"></div>
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
     <div class="fade-section">
       <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-6">지금 바로<br><span class="text-teal">무료 상담</span> 받아보세요</h2>
-      <p class="text-slate-400 text-lg mb-10 max-w-xl mx-auto">플랫폼, 건수, 스케줄까지 맞춤 견적을 무료로 받아보세요.<br>평일 기준 당일 답변 드립니다.</p>
+      <p class="text-slate-400 text-lg mb-10 max-w-xl mx-auto">플랫폼, 건수, 스케줄까지 맞춤 견적을 무료로 받아보세요.<br>당일 답변 드립니다.</p>
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
         <a href="#" onclick="openKakao(); return false;" class="w-full sm:w-auto bg-amber hover:bg-amber/90 text-dark font-bold text-lg px-10 py-4 rounded-full transition cta-pulse flex items-center justify-center gap-3">
           <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3C6.477 3 2 6.463 2 10.691c0 2.65 1.727 4.989 4.338 6.376l-.924 3.418a.5.5 0 00.758.543l4.073-2.685c.572.064 1.155.098 1.755.098 5.523 0 10-3.463 10-7.75S17.523 3 12 3z"/></svg>
@@ -719,10 +664,8 @@ function callPhone() {
 
 function handleConsultClick() {
   const platform = document.querySelector('#platformToggles .toggle-btn.active')?.dataset.platform || '쿠팡';
-  const workType = document.querySelector('#workTypeToggles .toggle-btn.active')?.dataset.type || '빈박스';
+  const reviewType = document.querySelector('#reviewTypeToggles .toggle-btn.active')?.dataset.type || '텍스트리뷰';
   const qty = document.getElementById('qtySlider').value;
-  const msg = `[견적 요청]\n플랫폼: ${platform}\n작업유형: ${workType}\n건수: ${qty}건\n예상 소요일: ${Math.ceil(qty / 5)}일`;
-  console.log(msg);
   openKakao();
 }
 
@@ -731,15 +674,14 @@ function handleConsultClick() {
 // ============================================
 const qtySlider = document.getElementById('qtySlider');
 const qtyDisplay = document.getElementById('qtyDisplay');
-const estDays = document.getElementById('estDays');
+const estPrice = document.getElementById('estPrice');
 
 function updateSlider() {
   const val = parseInt(qtySlider.value);
-  qtyDisplay.textContent = val;
-  estDays.textContent = Math.ceil(val / 5);
+  qtyDisplay.textContent = val.toLocaleString();
+  estPrice.textContent = (val * 1000).toLocaleString();
 
-  // Update slider fill color
-  const pct = ((val - 10) / (500 - 10)) * 100;
+  const pct = ((val - 1) / (1000 - 1)) * 100;
   qtySlider.style.background = `linear-gradient(to right, #14B8A6 ${pct}%, #334155 ${pct}%)`;
 }
 
@@ -747,7 +689,7 @@ qtySlider.addEventListener('input', updateSlider);
 updateSlider();
 
 // ============================================
-// Toggle Buttons (Platform & Work Type)
+// Toggle Buttons
 // ============================================
 document.querySelectorAll('#platformToggles .toggle-btn').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -756,9 +698,9 @@ document.querySelectorAll('#platformToggles .toggle-btn').forEach(btn => {
   });
 });
 
-document.querySelectorAll('#workTypeToggles .toggle-btn').forEach(btn => {
+document.querySelectorAll('#reviewTypeToggles .toggle-btn').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('#workTypeToggles .toggle-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('#reviewTypeToggles .toggle-btn').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
   });
 });
@@ -766,7 +708,7 @@ document.querySelectorAll('#workTypeToggles .toggle-btn').forEach(btn => {
 // ============================================
 // Comparison Toggle
 // ============================================
-let compState = 'A'; // 'A' = 타업체, 'B' = BUYWISE
+let compState = 'A';
 
 function toggleComparison() {
   const panelA = document.getElementById('compPanelA');
@@ -805,11 +747,9 @@ function toggleFaq(button) {
   const chevron = button.querySelector('.faq-chevron');
   const isOpen = answer.classList.contains('open');
 
-  // Close all
   document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
   document.querySelectorAll('.faq-chevron').forEach(c => c.classList.remove('open'));
 
-  // Open clicked if was closed
   if (!isOpen) {
     answer.classList.add('open');
     chevron.classList.add('open');
@@ -835,7 +775,7 @@ function animateCountUp(el) {
   function update(currentTime) {
     const elapsed = currentTime - startTime;
     const progress = Math.min(elapsed / duration, 1);
-    const eased = 1 - Math.pow(1 - progress, 3); // ease-out cubic
+    const eased = 1 - Math.pow(1 - progress, 3);
     const current = Math.floor(eased * target);
 
     if (target >= 1000) {
@@ -865,8 +805,6 @@ const fadeObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
-
-      // Trigger count-up for elements inside
       entry.target.querySelectorAll('[data-countup]').forEach(el => {
         if (!el.dataset.counted) {
           el.dataset.counted = 'true';
@@ -879,7 +817,6 @@ const fadeObserver = new IntersectionObserver((entries) => {
 
 document.querySelectorAll('.fade-section').forEach(el => fadeObserver.observe(el));
 
-// Also observe standalone count-up elements
 const countObserver = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting && !entry.target.dataset.counted) {
